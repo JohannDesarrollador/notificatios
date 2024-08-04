@@ -29,7 +29,13 @@
             "JohannDesarrollador\\Notifications\\": "src/"
         }
     },
-
+    "extra": {
+        "JohannDesarrollador": {
+            "providers": [
+                "JohannDesarrollador\\Notifications\\NotificatiosServiceProvider"
+            ]
+        }
+    },
 
     "config": {
         "sort-packages": true
