@@ -28,7 +28,7 @@ class InstallCommand extends Command implements PromptsForMissingInput
      *
      * @var string
      */
-    protected $signature = 'breeze:install {stack : The development stack that should be installed (blade,livewire,livewire-functional,react,vue,api)}
+    protected $signature = 'johann-modules:notifications {stack : The development stack that should be installed (blade,livewire,livewire-functional,react,vue,api)}
     {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
 
     /**
