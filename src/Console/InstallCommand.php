@@ -1,6 +1,6 @@
 <?php
 
-namespace JohannDevFull\Notifications\Console;
+namespace JohannDesarrollador\Notifications\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\PromptsForMissingInput;

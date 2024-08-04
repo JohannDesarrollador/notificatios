@@ -1,6 +1,6 @@
 <?php
 
-namespace JohannDevFull\Notifications\Console;
+namespace JohannDesarrollador\Notifications\Console;
 
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
