@@ -1,6 +1,6 @@
 {
     "name": "johann-desarrollador/notifications",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
     "keywords": ["laravel", "vue" , "notifications"],
     "license": "MIT",
@@ -32,7 +32,7 @@
         }
     },
     "extra": {
-        "JohannDesarrollador": {
+        "johann-desarrollador": {
             "providers": [
                 "JohannDesarrollador\\Notifications\\NotificatiosServiceProvider"
             ]
