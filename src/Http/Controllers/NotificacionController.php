@@ -2,10 +2,11 @@
 
 namespace JohannDesarrollador\Notifications\Http\Controllers;
 
-use JohannDesarrollador\Notifications\Models\NotificacionGlobal;
-use JohannDesarrollador\Notifications\Models\User;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
+
+use JohannDesarrollador\Notifications\Models\NotificacionGlobal;
 
 
 class NotificacionController extends Controller

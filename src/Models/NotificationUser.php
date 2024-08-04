@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class NotificationUser extends Model
 {
 
-  protected $table = 'notificaciones_globales';
+  protected $table = 'notificaciones_usuarios';
 
-  protected $fillable = ['tipo', 'titulo', 'mensaje', 'importancia'];
+  protected $fillable = ['usuario_id', 'notificacion_id', 'leida', 'fecha_lectura'];
 
   public function usuarios()
   {

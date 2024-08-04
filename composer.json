@@ -11,7 +11,9 @@
     "authors": [
         {
             "name": "Johann Ramírez",
-            "email": "johann.devfull@gmail.com"
+            "email": "johann.devfull@gmail.com",
+            "homepage": "https://johann-dev.com",
+            "role": "Developer"
         }
     ],
     "require": {
