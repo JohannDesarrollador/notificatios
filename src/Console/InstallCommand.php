@@ -36,7 +36,7 @@ class InstallCommand extends Command implements PromptsForMissingInput
      *
      * @var string
      */
-    protected $description = 'Install the Breeze controllers and resources';
+    protected $description = 'Instalar los controladores y recursos de notifications';
 
     /**
      * Execute the console command.
@@ -59,7 +59,7 @@ class InstallCommand extends Command implements PromptsForMissingInput
             return $this->installApiStack();
         }
 
-        $this->components->error('Invalid stack. Supported stacks are [blade], [livewire], [livewire-functional], [react], [vue], and [api].');
+        $this->components->error('Pila no válida. Las pilas admitidas son [blade], [livewire], [livewire-functional], [react], [vue], and [api].');
 
         return 1;
     }
